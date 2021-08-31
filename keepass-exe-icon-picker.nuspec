@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keepass-exe-icon-picker</id>
+    <version>1.2.0.0</version>
+    <title>KeePass Plugin Exe Icon Picker</title>
+    <authors>Eveldee</authors>
+    <owners>chocolatey-community</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Eveldee/KeePass-ExeIconPicker/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Eveldee/KeePass-ExeIconPicker</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/dtgm/chocolatey-packages/master/icons/keepass.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+___
+### [choco://keepass-browser-importer](choco://keepass-exe-icon-picker)
+To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
+___
+ExeIconPicker plugin for KeePass 2.x is a plugin that lets you grab an icon from a Windows executable file (.exe), a library (.dll) or an icon file (.ico) and use it as an entry or group icon.
+___
+**[PACKAGE NOTES](https://github.com/Eveldee/KeePass-ExeIconPicker)**
+    </description>
+    <summary>ExeIconPicker plugin for KeePass 2.x</summary>
+    <releaseNotes>https://github.com/eveldee0680/KeePass-ExeIconPicker/releases</releaseNotes>
+    <copyright>2021 Eveldee</copyright>
+    <tags>keepass plugin icon</tags>
+    <projectSourceUrl>https://github.com/Eveldee/KeePass-ExeIconPicker</projectSourceUrl>
+    <packageSourceUrl>https://github.com/kenscudero/keepass-exe-icon-picker</packageSourceUrl>
+    <docsUrl>https://github.com/Eveldee/KeePass-ExeIconPicker/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Eveldee/KeePass-ExeIconPicker/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="keepass" version="2.42" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="legal\**" target="legal" />
+      <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download appropriate version from https://github.com/eveldee0680/KeePass-ExeIconPicker/releases
+
+Calculate checksum (eg. using Get-FileHash) and compare with checksum for ExeIconPicker.plgx file included in this package.
