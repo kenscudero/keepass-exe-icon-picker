@@ -16,7 +16,7 @@ ___
 ### [choco://keepass-browser-importer](choco://keepass-exe-icon-picker)
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
 ___
-ExeIconPicker plugin for KeePass 2.x is a plugin that lets you grab an icon from a Windows executable file (.exe), a library (.dll) or an icon file (.ico) and use it as an entry or group icon.
+ExeIconPicker plugin for [_KeePass 2.x_](http://www.KeePass.info) is a plugin that lets you grab an icon from a Windows executable file (.exe), a library (.dll) or an icon file (.ico) and use it as an entry or group icon.
 ___
 **[PACKAGE NOTES](https://github.com/Eveldee/KeePass-ExeIconPicker)**
     </description>
